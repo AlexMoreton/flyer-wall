@@ -1,0 +1,66 @@
+<style>
+/* flyer wall */
+.flyer-placeholder {
+    background-image: url('http://placehold.it/260x350');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 410px !important;
+    width: 300px !important;
+    padding: 15px;
+    display: block;
+}
+
+.left {
+  border-right: 1px solid #000000;
+}
+
+.center {
+  border-right: 1px solid #000000;
+}
+
+.top, .middle {
+  border-bottom: 1px solid #000000;
+}
+
+#flyer-wall {
+    width: 100%;
+    max-width: 1080px;
+}
+
+#col-group {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 50em) {
+  .col-group {
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  .col-group > div {
+    float: left;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+    .left, .center, .middle, .right {
+        border: none;
+    }
+}
+</style>
+
+<div id="flyer-wall">
+  <p>In response to the council crackdown on postering, Nitelife Flyer Wall gives independent promoters in Bristol a space to showcase their events. Get involved by emailing <a href="mailto:flyerwall@nitelifeonline.com" style="color: red">flyerwall@nitelifeonline.com</a>.</p>
+<div id="col-group" class="col-group" align="center">
+<div class="flyer-placeholder left top">[adrotate group="6"]</div>
+<div class="flyer-placeholder center top">[adrotate group="7"]</div>
+<div class="flyer-placeholder right top">[adrotate group="8"]</div>
+<div class="flyer-placeholder left middle">[adrotate group="9"]</div>
+<div class="flyer-placeholder center middle">[adrotate group="10"]</div>
+<div class="flyer-placeholder right middle">[adrotate group="11"]</div>
+<div class="flyer-placeholder left bottom">[adrotate group="12"]</div>
+<div class="flyer-placeholder center bottom">[adrotate group="13"]</div>
+<div class="flyer-placeholder right bottom">[adrotate group="14"]</div>
+</div>
+</div>
